@@ -9,9 +9,7 @@ A full-stack practice application with a React frontend and Express backend. The
 | App      | URL |
 |----------|-----|
 | Backend  | `https://your-backend.onrender.com` *(add your deployed URL)* |
-| Frontend | `https://your-app.vercel.app` *(add your deployed URL)* |
-
-*Update the table above with your production URLs after deploying (e.g. Render, Railway, Vercel).*
+| Frontend | `https://full-stack-practise-app.vercel.app/` |
 
 ---
 
