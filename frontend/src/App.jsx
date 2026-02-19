@@ -8,7 +8,7 @@ function App() {
   const API = import.meta.env.VITE_API_URL;
   useEffect(() => {
     axios
-      .get(`{API}/api/jokes`)
+      .get(`${API}/api/jokes`)
       .then((response) => {
         setJokes(response.data);
       })
