@@ -5,10 +5,10 @@ import { useEffect } from "react";
 
 function App() {
   const [jokes, setJokes] = useState([]);
-
+  const API = import.meta.env.VITE_API_URL;
   useEffect(() => {
     axios
-      .get("/api/jokes")
+      .get(`{API}/api/jokes`)
       .then((response) => {
         setJokes(response.data);
       })
