@@ -8,7 +8,7 @@ A full-stack practice application with a React frontend and Express backend. The
 
 | App      | URL |
 |----------|-----|
-| Backend  | `https://your-backend.onrender.com` *(add your deployed URL)* |
+| Backend  | [backend test](https://full-stack-practise-app.onrender.com) |
 | Frontend | [live page](https://full-stack-practise-app.vercel.app/) |
 
 ---
@@ -79,7 +79,6 @@ npm run dev
 
 Frontend runs at [http://localhost:5173](http://localhost:5173).
 
-Ensure the frontend is configured to proxy `/api` requests to the backend (e.g. in `frontend/vite.config.js`) so API calls work in development.
 
 ---
 
